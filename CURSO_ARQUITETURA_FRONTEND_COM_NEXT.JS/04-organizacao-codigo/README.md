@@ -1,0 +1,83 @@
+# Módulo 04: Organização de Código
+
+## 📘 Visão Geral
+
+Padrões profissionais de organização de código para projetos Next.js escaláveis.
+
+## 📚 Conteúdo
+
+1. Estrutura de Pastas - Organização lógica
+2. Separação UI/Lógica - Componentes vs Hooks
+3. Server vs Client Components - Quando usar cada
+4. Renderização Híbrida - SSR, SSG, ISR
+5. Hooks Patterns - Custom hooks reutilizáveis
+6. Context Patterns - Estado global
+7. Schemas e Validação - Zod integration
+8. Lib vs Utils - Diferenças e quando usar
+
+## 🎯 Objetivos
+
+- ✅ Estrutura de pastas escalável
+- ✅ Separação clara de responsabilidades
+- ✅ Reuso de código
+- ✅ Manutenibilidade
+
+---
+
+## 📁 Estrutura Recomendada
+
+```
+src/
+├── app/                      # App Router
+│   ├── (grupo)/             # Route groups
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── api/                 # BFF Layer
+│       └── **/route.ts
+│
+├── components/              # Componentes React
+│   ├── ui/                 # Componentes base
+│   │   ├── Button.tsx
+│   │   ├── Input.tsx
+│   │   └── Card.tsx
+│   ├── shared/             # Componentes compartilhados
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   └── Navigation.tsx
+│   └── sections/           # Sections específicas
+│       ├── HeroSection.tsx
+│       └── FeaturesSection.tsx
+│
+├── hooks/                   # Custom hooks
+│   ├── useApi.ts
+│   ├── useLocalStorage.ts
+│   └── fetch-api/          # Hooks por feature
+│       ├── useUsers.ts
+│       └── usePost.ts
+│
+├── contexts/                # Context API
+│   ├── ThemeContext.tsx
+│   └── AuthContext.tsx
+│
+├── lib/                     # Configurações/Clients
+│   ├── api-client.ts
+│   ├── env.ts
+│   └── db.ts
+│
+├── utils/                   # Funções utilitárias
+│   ├── format.ts
+│   ├── validators.ts
+│   └── helpers.ts
+│
+├── schemas/                 # Zod schemas
+│   ├── user.schema.ts
+│   └── post.schema.ts
+│
+└── types/                   # TypeScript types
+    ├── api.ts
+    └── global.d.ts
+```
+
+---
+
+⏱️ **Tempo:** 6-7 horas

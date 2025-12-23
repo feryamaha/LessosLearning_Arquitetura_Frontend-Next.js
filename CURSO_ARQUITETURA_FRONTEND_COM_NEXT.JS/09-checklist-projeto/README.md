@@ -1,0 +1,45 @@
+# Módulo 09: Checklists de Projeto
+
+## 📋 Checklists Prontos para Uso
+
+### 1. Checklist de Arquitetura
+- [ ] BFF implementado (Route Handlers)
+- [ ] Separação Server/Client components
+- [ ] Estrutura de pastas organizada
+- [ ] Custom hooks reutilizáveis
+- [ ] Context para estado global
+- [ ] TypeScript strict mode
+
+### 2. Checklist de Segurança
+- [ ] CSP Level 3 com nonce
+- [ ] 7 headers OWASP configurados
+- [ ] Sanitização HTML (DOMPurify)
+- [ ] Credenciais apenas server-side
+- [ ] Cookies com flags seguros
+- [ ] Score A+ em SecurityHeaders.com
+
+### 3. Checklist de Performance
+- [ ] Cache-Control configurado
+- [ ] Imagens otimizadas (next/image)
+- [ ] Bundle size otimizado
+- [ ] Code splitting implementado
+- [ ] Lazy loading onde apropriado
+- [ ] Lighthouse score > 90
+
+### 4. Checklist de Deploy
+- [ ] Variáveis de ambiente configuradas
+- [ ] Build sem erros/warnings
+- [ ] Testes passando
+- [ ] CI/CD configurado
+- [ ] Monitoramento configurado
+- [ ] Documentação atualizada
+
+---
+
+Use esses checklists em:
+- ✅ Code reviews
+- ✅ Onboarding de devs
+- ✅ Auditorias internas
+- ✅ Pré-deploy
+
+⏱️ **Tempo:** 2-3 horas
