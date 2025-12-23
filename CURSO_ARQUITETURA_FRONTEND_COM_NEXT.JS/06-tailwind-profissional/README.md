@@ -17,6 +17,18 @@
 
 ---
 
+## ✅ Checklist de Revisão
+
+- [ ] `content` paths corretos no `tailwind.config.ts` (Tailwind Config: https://tailwindcss.com/docs/configuration)
+- [ ] Tokens definidos (cores, spacing, fonte, radius) no `theme.extend`
+- [ ] globals.css com resets básicos e variáveis que fizerem sentido
+- [ ] Padrão de variantes (clsx/cva) para estados e tamanhos
+- [ ] Responsividade mobile-first usando breakpoints do Tailwind
+- [ ] Foco visível e `prefers-reduced-motion` respeitado
+- [ ] Estratégia de dark mode definida (class ou media) se aplicável
+
+---
+
 ## 💡 Exemplo - Custom Theme
 
 ```typescript

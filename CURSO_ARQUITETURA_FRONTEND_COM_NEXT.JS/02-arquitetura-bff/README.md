@@ -57,6 +57,18 @@ const api =  axios.create({
 
 ---
 
+## ✅ Checklist de Revisão
+
+- [ ] Route Handlers em `app/api/**/route.ts` com métodos corretos (Next.js Route Handlers: https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
+- [ ] Validação de input (ex.: Zod) antes de chamar APIs externas
+- [ ] Erros tratados com `NextResponse.json` e status adequado
+- [ ] Cache e revalidação configurados (`cache`, `next: { revalidate }`, headers de cache)
+- [ ] Sem credenciais no cliente: secrets somente em variáveis de ambiente server-side
+- [ ] `.env.local` no `.gitignore` e `.env.example` commitado
+- [ ] Logs mínimos de erro sem vazar dados sensíveis
+
+---
+
 ## ⏱️ Tempo Estimado
 
 **4-5 horas** (teor + prática)

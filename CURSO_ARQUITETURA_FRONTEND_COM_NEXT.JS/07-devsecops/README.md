@@ -29,6 +29,18 @@ Pipeline automatizado:
 
 ---
 
+## ✅ Checklist de Revisão
+
+- [ ] Hooks de pre-commit executam: lint, type-check (`tsc --noEmit`), tests, audit/OSV (DevSecOps.org práticas)
+- [ ] Pipeline CI com stages: lint+type → test → build → security scan → deploy (GitHub Actions)
+- [ ] Varredura de dependências (npm audit/OSV) e bloqueio em caso de crítico
+- [ ] Política de secrets: `.env` não versionado; detectores de secrets habilitados (ex.: git-secrets/trufflehog)
+- [ ] Gate de qualidade: builds sem warnings; cobertura mínima definida
+- [ ] PR review com checklist de arquitetura/segurança/performance
+- [ ] Deploy automatizado (ex.: Vercel) somente após CI verde
+
+---
+
 ## 💡 Script Pre-commit
 
 ```javascript

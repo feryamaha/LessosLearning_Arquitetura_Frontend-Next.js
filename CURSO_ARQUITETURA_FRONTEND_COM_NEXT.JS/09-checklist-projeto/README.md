@@ -36,6 +36,15 @@
 
 ---
 
+## ✅ Checklist de Revisão (como testar cada item)
+
+- [ ] Arquitetura: conferir colocation no App Router (Next.js Routing: https://nextjs.org/docs/app/building-your-application/routing)
+- [ ] Segurança: rodar SecurityHeaders.com e Observatory; CSP/headers em `next.config.js`; DOMPurify onde há HTML dinâmico (OWASP: https://owasp.org/www-project-secure-headers)
+- [ ] Performance: Lighthouse > 90 (Chrome DevTools); `next/image` e cache configurados
+- [ ] Deploy: `npm run build` sem warnings; CI (GitHub Actions) com estágios lint/type/test/build/scan; variáveis configuradas no ambiente de deploy
+
+---
+
 Use esses checklists em:
 - ✅ Code reviews
 - ✅ Onboarding de devs

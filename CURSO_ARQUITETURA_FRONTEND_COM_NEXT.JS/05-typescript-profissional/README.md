@@ -17,6 +17,18 @@
 
 ---
 
+## ✅ Checklist de Revisão
+
+- [ ] `strict: true` + `noUnusedLocals` + `noUnusedParameters` + `noImplicitReturns` (TS Handbook: https://www.typescriptlang.org/tsconfig)
+- [ ] Paths configurados (`baseUrl`, `paths` com `@/*`) no `tsconfig.json`
+- [ ] Tipos globais em `types/` (env, módulos sem types, extensões de Window)
+- [ ] APIs validadas com Zod e tipos derivados via `z.infer`
+- [ ] Evitar `any`: usar generics, `unknown`, `satisfies`, `const assertions`
+- [ ] Componentes tipados (props, eventos) e hooks com retornos explícitos
+- [ ] Build passa com `tsc --noEmit`
+
+---
+
 ## 💡 Exemplo - Tipagem API
 
 ```typescript

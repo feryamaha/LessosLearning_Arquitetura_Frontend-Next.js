@@ -36,6 +36,19 @@ Após implementar este módulo, seu projeto terá:
 
 ---
 
+## ✅ Checklist de Revisão
+
+- [ ] CSP Level 3 com nonce via middleware (Next.js Middleware: https://nextjs.org/docs/app/building-your-application/routing/middleware)
+- [ ] Scripts externos usando nonce; sem `unsafe-inline/unsafe-eval` em produção
+- [ ] 7 headers configurados em `next.config.js` (`headers()`): HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, CSP, X-XSS-Protection (legacy)
+- [ ] Sanitização HTML com DOMPurify onde usar `dangerouslySetInnerHTML`
+- [ ] Cookies `httpOnly`, `secure`, `sameSite`, `expires`; acesso via `cookies()` (App Router)
+- [ ] Credenciais apenas server-side (`process.env`), nada com `NEXT_PUBLIC` sensível
+- [ ] Testado em SecurityHeaders.com e Observatory (score A+)
+- [ ] Verificação manual no DevTools (Network/Sources) para confirmar ausência de secrets
+
+---
+
 ## ⏱️ Tempo Estimado
 
 **5-6 horas** (teoria + prática)

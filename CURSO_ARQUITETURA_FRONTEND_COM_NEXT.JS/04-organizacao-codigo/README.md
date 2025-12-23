@@ -80,4 +80,17 @@ src/
 
 ---
 
+## ✅ Checklist de Revisão
+
+- [ ] Estrutura por feature/colocation alinhada ao App Router (Next.js Routing: https://nextjs.org/docs/app/building-your-application/routing)
+- [ ] Server vs Client Components definidos; `"use client"` apenas quando necessário
+- [ ] Lógica em hooks/contexts, componentes focados em renderização
+- [ ] Pastas claras: app/, components/ui|shared|sections, hooks/, lib/, utils/, schemas/, types/
+- [ ] Tamanho dos componentes sob controle (<150-200 linhas como guideline)
+- [ ] Sem duplicação de componentes/arquivos “copy”
+- [ ] Schemas (Zod) próximos dos casos de uso; types globais em `types/`
+- [ ] Testabilidade: hooks e funções puras fáceis de isolar
+
+---
+
 ⏱️ **Tempo:** 6-7 horas

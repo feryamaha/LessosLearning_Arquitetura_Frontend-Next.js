@@ -41,9 +41,17 @@ templates/
 
 - [Next.js Docs](https://nextjs.org/docs)
 - [React Docs](https://react.dev)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs)
-- [Tailwind CSS](https://tailwindcss.com)
-- [OWASP](https://owasp.org)
-- [SecurityHeaders.com](https://securityheaders.com)
+
+---
+
+## ✅ Checklist de Revisão
+
+- [ ] Links oficiais atualizados (Next.js, React, TS, Tailwind, OWASP, DevSecOps)
+- [ ] Glossário cobre siglas usadas no curso (BFF, CSP, XSS, CSRF, RSC, SSR/SSG/ISR)
+- [ ] Troubleshooting lista erros comuns do App Router (headers enviados, cache do fetch, CSP)
+- [ ] Templates organizados e referenciados nos módulos
+- [ ] Links de ferramentas de teste (SecurityHeaders, Observatory, Lighthouse) presentes
+
+---
 
 ⏱️ **Tempo:** 1-2 horas

@@ -27,6 +27,17 @@ Ao final deste módulo, você será capaz de:
 
 ---
 
+## ✅ Checklist de Revisão
+
+- [ ] Entendi a diferença entre App Router e Pages Router (Next.js Docs: https://nextjs.org/docs/app)
+- [ ] Sei quando usar Server vs Client Components e `"use client"` (React Docs: https://react.dev/learn/server-and-client-components)
+- [ ] Conheço os arquivos especiais (layout, loading, error, not-found)
+- [ ] Sei escolher entre SSG, SSR, ISR e streaming (Next.js Rendering: https://nextjs.org/docs/app/building-your-application/rendering)
+- [ ] Sei como o cache do `fetch` funciona no App Router (`cache`, `next: { revalidate }`)
+- [ ] Consegui rodar um exemplo mínimo com layout, loading e erro
+
+---
+
 ## ⏱️ Tempo Estimado
 
 **2-3 horas** (leitura + prática)

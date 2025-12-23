@@ -22,6 +22,17 @@ Cada caso inclui:
 
 ---
 
+## ✅ Checklist de Revisão
+
+- [ ] Formulários com React Hook Form + Zod; mensagens de erro acessíveis
+- [ ] BFF (Route Handler) com validação e códigos de status corretos
+- [ ] Segredos somente no server; nada sensível em `NEXT_PUBLIC`
+- [ ] Upload com limites de tamanho, validação de MIME e resposta de erro clara
+- [ ] Integrações com timeout/retry/backoff e logs mínimos
+- [ ] Teste de fluxo (ex.: Playwright) cobrindo caminho feliz + erros
+
+---
+
 ## 💡 Preview - Formulário
 
 ```tsx
